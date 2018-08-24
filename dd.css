@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  background: url(back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+}
+header {
+  position: fixed;
+  top:0;
+  width: 600px;
+  margin: 10px auto; /* Will not center vertically and won't work in IE6/7. */
+  left: 0;
+  right: 0;
+  border: 1px solid;
+  color: #9F6000;
+  background-color: #FEEFB3;
+  text-align: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+section {
+  margin-top: 150px;
+  position: relative
+}
+section div {
+  padding: 80px 0 0 170px;
+  height: 115px;
+  width: 350px;
+  float:left;
+  margin: 0 40px 20px 40px;
+}
+section div a {
+  width: 30px;
+  height: 40px;
+  border: solid 3px #fff;
+  padding: 30px;
+  font-size: 30px;
+  border-radius: 25px;
+}
+section div#mac a {
+  border: solid 3px #333;
+}
+section div span {
+  position: absolute;
+  top: 15px;
+  height: 20px;
+}
+#microsoft {
+  background: #0067B8;
+  background-image: url('microsoft.png');
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  background-position: 20px 20px; 
+  color: #fff;
+  position:relative;
+}
+a {
+  color: #fff;
+}
+#mac {
+  background: #F5F5F5;
+  background-image: url('apple.png');
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  background-position: 20px 20px; 
+  color: #333;
+  position:relative;
+}
+#mac a {
+  color: #333333;
+}
+#ubuntu {
+  background: #E95420;
+  background-image: url('ubuntu.png');
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  background-position: 20px 20px; 
+  color: #fff;
+  position:relative;
+}
+#debian {
+  background: #D70751;
+  background-image: url('debian.png');
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  background-position: 20px 20px; 
+  color: #fff;
+  position:relative;
+}
+#fedora {
+  background: #253C68;
+  background-image: url('fedora.png');
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  background-position: 20px 20px; 
+  color: #fff;
+  position:relative;
+}
+
+#centos {
+  background: #0E223D;
+  background-image: url('centos.png');
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  background-position: 20px 20px; 
+  color: #fff;
+  position:relative;
+}
+
+footer {
+  clear:both;
+  text-align: center;
+  font-size: 9px;
+  padding-top: 40px;
+}
